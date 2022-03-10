@@ -168,7 +168,7 @@ export default function Question4() {
       >
         Your coin: {coin}
       </div>
-      <div style={{ textAlign: "right", marginTop: 60, marginRight: 250 }}>
+      <div style={{ textAlign: "right", marginTop: 60, marginRight: 150 }}>
         <button style={{ fontSize: "20px" }} onClick={() => start_game()}>
           START
         </button>
