@@ -1,13 +1,17 @@
+/*
+ * File name: SQLQuestion1.js
+ * Purpose: For the the SQLQuestion1 page rendering
+ * Author: Kohei Kaburaki
+ * Date: 10th March, 2022
+ * Version: 1.0
+ * Note: This file will continue to be fixed and updated by Kohei or authoratized developers.
+ */
+
 import React, {useState, useEffect} from 'react';
-import ReactDOM from 'react-dom';
-
-
 
   export default function SQLQuestion1()
     { 
        
-       
-
         return <>
         <label style={{fontSize: 25}}>ER Diagram:</label>
         <div style={{margin: "20px 0 20px 0"}}><img style={{width: "90%"}} src="ERD.png"/></div>
@@ -36,8 +40,6 @@ import ReactDOM from 'react-dom';
   CONSTRAINT 'favourite_game_key'
     FOREIGN KEY ('favourite_game')
     REFERENCES 'games' ('game_id');
-
-
 
 
 
